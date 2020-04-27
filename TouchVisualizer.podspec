@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TouchVisualizer"
-  s.version          = "3.0.2"
+  s.version          = "3.1.1"
   s.summary          = "Effective presentation with TouchVisualizer!"
   s.description      = <<-DESC
                        TouchVisualizer is a lightweight and pure Swift implemented library for visualizing touches on the screen. Let's give an effective presentation with TouchVisualizer!
@@ -22,11 +22,10 @@ Pod::Spec.new do |s|
                        - You can change colors and images of finger points.
                        - iPhone and iPad with portlait and landscape supported.
                        DESC
-  s.homepage         = "https://github.com/morizotter/TouchVisualizer"
+  s.homepage         = "https://github.com/icerockdev/TouchVisualizer"
   s.license          = 'MIT'
   s.author           = { "Naoki Morita" => "namorit@gmail.com" }
-  s.source           = { :git => "https://github.com/olmero/TouchVisualizer.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/morizotter'
+  s.source           = { :git => "https://github.com/icerockdev/TouchVisualizer.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '9.0'
   s.requires_arc = true
